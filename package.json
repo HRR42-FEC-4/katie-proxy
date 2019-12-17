@@ -1,17 +1,26 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
-  "license": "",
-  "engines": {
-    "node": ">=6.13.0"
-  },
-  "scripts": {
-  },
+  "name": "katie-proxy",
+  "version": "1.0.0",
+  "description": "FEC Proxy",
+  "main": "index.html",
   "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.20.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
   },
-  "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "start": "node ./server/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HRR42-FEC-4/katie-proxy.git"
+  },
+  "author": "Kathleen29",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HRR42-FEC-4/katie-proxy/issues"
+  },
+  "homepage": "https://github.com/HRR42-FEC-4/katie-proxy#readme"
 }
