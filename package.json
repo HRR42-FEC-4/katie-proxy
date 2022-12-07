@@ -4,7 +4,7 @@
   "description": "FEC Proxy",
   "main": "index.html",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "http-proxy-middleware": "^0.20.0",
     "morgan": "^1.9.1",
     "nodemon": "^2.0.2"
